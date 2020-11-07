@@ -1,0 +1,61 @@
+.navnorm{
+-moz-border-radius:500px;
+-webkit-border-radius:500px;
+ border-radius:200px;
+ width: 50%; margin:auto; 
+ border-bottom-style: solid ;
+ border-color: #5B616A;
+ border-width: 5px
+}
+
+body {
+  /*background-color: black   ;    */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.modal-body {
+  background-image: url();
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+
+
+.navbar-fixed-left {
+width: 16.6%;
+position: fixed;
+border-radius: 0;
+height: 100%;
+background-color: #ECF0F1;border-left-style: solid ;border-color: #B9929F;border-width: 7px;
+
+
+
+
+}
+
+.navbar-fixed-left .navbar-nav > li {
+float: none;  /* Cancel default li float: left */
+width: 139px;
+}
+
+.navbar-fixed-left + .container {
+padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+margin-top: -50px;
+margin-left: 140px;
+}
+
+.navbar-top{
+
+    position: fixed;
+    border-bottom-style: solid ;
+    border-color: #5B616A;
+    border-width: 5px
+
+}
